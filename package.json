@@ -1,0 +1,16 @@
+{
+  "name": "node-express-app",
+  "version": "1.0.0",
+  "description": "A Node Express app to list Render services",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "BrachaTehila",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.3",
+    "express": "^4.21.2"
+  }
+}
