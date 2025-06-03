@@ -1,8 +1,9 @@
+require('dotenv').config();
 const express = require('express');
 const axios = require('axios');
 const app = express();
 const port = process.env.PORT || 3000;
-const apiKey = 'rnd_CxwmsvSbT9I829NXtMQqJUSsOHRe'; // החליפי ב-API Key שיצרת
+const apiKey = process.env.RENDER_API_KEY; // קבלת ה-API Key מהסביבה
 
 app.get('/apps', async (req, res) => {
   try {
